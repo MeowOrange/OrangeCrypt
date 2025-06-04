@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DuplicateInstanceMessage" xml:space="preserve">
+    <value>Already running, exiting...</value>
+  </data>
+  <data name="MenuMountedFolders" xml:space="preserve">
+    <value>Deciphered folders</value>
+  </data>
+  <data name="MenuEmpty" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="MsgboxInfoTitle" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="ProgramName" xml:space="preserve">
+    <value>OrangeCrypt</value>
+  </data>
+  <data name="MenuUnmountAndExit" xml:space="preserve">
+    <value>Unmount &amp; Exit</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ProgramIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProgramIcon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuConfig" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="MenuConfigDoAssociation" xml:space="preserve">
+    <value>Register system associations</value>
+  </data>
+  <data name="MenuConfigDeAssociation" xml:space="preserve">
+    <value>Clean system associations</value>
+  </data>
+  <data name="DoAssociationSuccessMessage" xml:space="preserve">
+    <value>Registered system associations successfully.</value>
+  </data>
+  <data name="DeAssociationSuccessMessage" xml:space="preserve">
+    <value>Cleaned system associations successfully.</value>
+  </data>
+  <data name="NoAdministrativeMessage" xml:space="preserve">
+    <value>The major instance of this program must have administrative privileges</value>
+  </data>
+  <data name="InvalidEncryptedFileMessage" xml:space="preserve">
+    <value>Unexpected container file</value>
+  </data>
+  <data name="WrongPasswordMessage" xml:space="preserve">
+    <value>Wrong password or corrupted container file</value>
+  </data>
+  <data name="FolderAlreadyExistMessage" xml:space="preserve">
+    <value>Mount point occupied</value>
+  </data>
+  <data name="UnexpectedErrorMessage" xml:space="preserve">
+    <value>Unexpected Error: {0}</value>
+  </data>
+  <data name="FailedWithoutDeletionMessage" xml:space="preserve">
+    <value>Failed to create encrypted folder, failed to delete container file, please clean up manually</value>
+  </data>
+  <data name="FailedWithDeletionMessage" xml:space="preserve">
+    <value>Failed to create encrypted folder, container file is cleaned</value>
+  </data>
+  <data name="SuccessWithoutDeletionMessage" xml:space="preserve">
+    <value>Encrypted folder successfully created without success in deleting source folder, please clean up manually</value>
+  </data>
+  <data name="AbnormalFolderMessage" xml:space="preserve">
+    <value>Abnormal folder: {0}</value>
+  </data>
+  <data name="MenuUnmountAll" xml:space="preserve">
+    <value>Unmount All</value>
+  </data>
+  <data name="EncryptStatusFormat" xml:space="preserve">
+    <value>{0}, Progress: {1:F1}%</value>
+  </data>
+  <data name="CurrentFileLabel" xml:space="preserve">
+    <value>Current: </value>
+  </data>
+  <data name="SuccessEncryptMessage" xml:space="preserve">
+    <value>Folder encrypted done: {0}</value>
+  </data>
+  <data name="OptimizeFailedWithDeletionMessage" xml:space="preserve">
+    <value>Failed to create optimized container, temp file is cleaned</value>
+  </data>
+  <data name="OptimizeFailedWithoutDeletionMessage" xml:space="preserve">
+    <value>Failed to create optimized container, failed to delete temp container file, please clean up manually</value>
+  </data>
+  <data name="OptimizeSuccessMessage" xml:space="preserve">
+    <value>Optimize success</value>
+  </data>
+  <data name="TitleFolderEncrypt" xml:space="preserve">
+    <value>Folder Encrypt</value>
+  </data>
+  <data name="WordPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="WordConfirmPassword" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="WordShowPassword" xml:space="preserve">
+    <value>Show Password</value>
+  </data>
+  <data name="WordOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="WordCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="TitleEnterPassword" xml:space="preserve">
+    <value>Enter Password</value>
+  </data>
+  <data name="DecryptFailedWithDeletionMessage" xml:space="preserve">
+    <value>Failed to decrypt folder, temp files cleaned</value>
+  </data>
+  <data name="DecryptFailedWithoutDeletionMessage" xml:space="preserve">
+    <value>Failed to decrypt folder, failed to clean temp files, please clean up manually</value>
+  </data>
+  <data name="DecryptSuccessMessage" xml:space="preserve">
+    <value>Folder decrypted successfully</value>
+  </data>
+  <data name="DecryptSuccessWithoutDeletionMessage" xml:space="preserve">
+    <value>Folder decrypted successfully, but encrpyt container file cannot be deleted, please clean up manually</value>
+  </data>
+  <data name="NeedAdminMessage" xml:space="preserve">
+    <value>Need admin privileges</value>
+  </data>
+  <data name="NoUserSessionMessage" xml:space="preserve">
+    <value>Cannot get user session</value>
+  </data>
+  <data name="WordEncrypt" xml:space="preserve">
+    <value>Encrypt</value>
+  </data>
+  <data name="WordOptimize" xml:space="preserve">
+    <value>Optimize</value>
+  </data>
+  <data name="WordPermanentDecrypt" xml:space="preserve">
+    <value>Permanent Decrypt</value>
+  </data>
+  <data name="WordUnlock" xml:space="preserve">
+    <value>Unlock</value>
+  </data>
+  <data name="FriendlyTypeName" xml:space="preserve">
+    <value>OrangeCrypt Encrypted Folder</value>
+  </data>
+</root>
