@@ -22,7 +22,19 @@ namespace OrangeCrypt
     {
         private static ResourceManager resMan = new ResourceManager("OrangeCrypt.Properties.Resources",
                                                   Assembly.GetExecutingAssembly());
-        private static CultureInfo ci = new CultureInfo("zh-CN");
+        private static CultureInfo ci = GetDefaultCulture();
+
+        private static CultureInfo GetDefaultCulture()
+        {
+            // 检查是否是简体中文环境
+            if (CultureInfo.CurrentUICulture.Name.Equals("zh-CN", StringComparison.OrdinalIgnoreCase) ||
+                CultureInfo.CurrentCulture.Name.Equals("zh-CN", StringComparison.OrdinalIgnoreCase))
+            {
+                return new CultureInfo("zh-CN");
+            }
+            // 默认返回en-US
+            return new CultureInfo("en-US");
+        }
 
         public static string? GetString(string name)
         {
